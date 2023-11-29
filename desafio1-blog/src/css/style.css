@@ -1,0 +1,116 @@
+.containerHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(87,74,232,1) 30%, rgba(62,161,219,1) 70%);
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Lexend Deca';
+    font-size: 24px;
+    font-weight: 400;
+    text-align: right;
+    padding: 40px 0px 0px 0px;
+    color: var(--dark-40);
+}
+
+.containerBusca{
+    width:60%;
+    height: 65px;
+    margin: 95px 0 50px 0;
+    border-radius: 5px;
+    background-color: var(--dark-40);
+    opacity: 0.1;
+    position: relative;
+    z-index: 1;
+}
+
+.divBusca{
+    width:60%;
+    /* height: 65px; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    top: -95px;
+  }
+
+  .iconeLupa{
+    fill: var(--dark-40);
+    padding: 0px 15px;
+  }
+  
+.txtBusca{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    border:none;
+    color: var(--dark-40);
+    background: transparent;
+    outline: none;
+    width: 100%;
+    opacity: 1;
+  }
+
+  ::placeholder {
+    color: var(--dark-40)
+  }
+
+.containerPosts{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+  background-color: var(--dark-30);
+}
+
+.cardPosts{
+  width: 60%;
+  background-color: var(--dark-40);
+  margin: 40px 0;
+  padding: 35px;
+}
+
+div.cardPosts > h2{
+  font-family: 'Lexend Deca';
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark-10);
+  margin: 10px 0;
+}
+
+div.cardPosts > p{
+  font-family: 'Lexend Deca';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--dark-20);
+
+}
+
+.infos{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+div.infos > h2{
+  color: var(--dark-20);
+  font-family: 'Lexend Deca';
+  font-size: 16px;
+}
